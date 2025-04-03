@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(80deg, #c100ff, #00ffc9);
+    height: 100vh;
+}
+
+.Formulario {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    height: 95vh;
+    border-radius: 10px;
+    border: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.Barra {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #0051ffa8;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.Barra a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.Formulario h2 {
+    flex: 1;
+    margin-left: 230px;
+    margin-top: 120px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.Formulario h4 {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: #ffffff;
+    width: 700px;
+}
+
+.Perfil {
+    position: absolute;
+    border-radius: 5px;
+    border-color: gold;
+    border: 4px;
+    top: 80px;
+    right: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.Formulario h3 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.Redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.Redes button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+    border-color: gold;
+    background-color: #003cffc7;
+    color: #00ff00;
+    cursor: pointer;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.Redes button img {
+    width: 20px;
+    height: 20px;
+}
+
+.Redes button:hover {
+    background-color: #2980b9;
+}
+
+.firma {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    /* Asegura que los elementos se alineen en una columna */
+    .Redes {
+        flex-direction: column; /* Cambia a diseño de columna */
+        align-items: center; /* Centra los botones horizontalmente */
+        gap: 10px; /* Espacio entre botones */
+    }
+
+    .Formulario h4 {
+        text-align: center; /* Centra el texto del h4 */
+        margin-top: 20px; /* Ajusta el margen superior */
+        margin-left: 0; /* Elimina el margen izquierdo */
+    }
+
+    .Perfil {
+        position: relative; /* Cambia a posicionamiento relativo */
+        margin: 0 auto; /* Centra horizontalmente */
+        margin-top: 20px; /* Espacio desde el h2 */
+        margin-bottom: 20px; /* Espacio antes del h4 */
+        width: 150px; /* Ajusta el tamaño para dispositivos pequeños */
+        height: auto;
+    }
+}

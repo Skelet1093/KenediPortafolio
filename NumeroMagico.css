@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(80deg, #c100ff, #00ffc9);
+    height: 100vh;
+}
+
+.Formulario {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    height: 95vh;
+    border-radius: 10px;
+    border: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.Barra {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #0051ffa8;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.Barra a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+input, button, img, text {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px;
+    border-radius: 10px; 
+    font-size: 16px;
+    border: none;
+}
+
+img {
+    width: 300px;
+}
+
+button {
+    background-color: #007BFF; 
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+input {
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#mensaje {
+    color: white; 
+    text-align: center;
+    font-size: 18px; 
+    margin-top: 20px;
+}
